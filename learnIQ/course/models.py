@@ -1,5 +1,5 @@
 from django.db import models
-from user.models import CustomerUser
+from user.models import CustomUser
 
 class CourseModel(models.Model):
     course_title = models.CharField(max_length=50)
