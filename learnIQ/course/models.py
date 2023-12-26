@@ -8,6 +8,8 @@ class CourseModel(models.Model):
     instructor = models.CharField(max_length=50)
     description = models.TextField(max_length=150)
     price = models.IntegerField(default=10)
+    no_of_students = models.IntegerField(default=0)
     
     def __str__(self):
         return self.course_title
+

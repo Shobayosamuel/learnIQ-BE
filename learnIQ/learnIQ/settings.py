@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "user.apps.UserConfig",
     "course.apps.CourseConfig",
+    "enrollment.apps.EnrollmentConfig",
     
     
     
@@ -200,7 +201,7 @@ SPECTACULAR_SETTINGS = {
     "SWAGGER_UI_DIST": "SIDECAR",
     "SWAGGER_UI_FAVICON_HREF": "SIDECAR",
     "REDOC_DIST": "SIDECAR",
-    "TITLE": "Spendsmart API",
+    "TITLE": "learnIQ-BE API",
     "DESCRIPTION": "A comprehensive fintech app designed to empower individuals in managing their personal finances effectively.",
     "VERSION": "1.0.0",
     "SERVE_INCLUDE_SCHEMA": False,

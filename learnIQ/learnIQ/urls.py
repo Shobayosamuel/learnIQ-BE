@@ -31,6 +31,8 @@ from drf_spectacular.views import (
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/user/', include("user.urls")),
+    path('api/course/', include("course.urls")),
+    path('api/enrollment/', include("enrollment.urls")),
     
     # jwt
     path("api/token/create", TokenObtainPairView.as_view(), name="token_obtain_pair"),
